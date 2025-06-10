@@ -304,3 +304,46 @@ body {
 .header__plan-btn {
     font-size: 2rem;
 }
+
+/* responsive */
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .header__content {
+        margin-top: 4rem;
+    }
+
+    .header__logos>img:nth-child(1) {
+        display: none;
+    }
+
+    .header__btns {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .header__btn {
+        width: 25rem;
+    }
+
+    .header__brand {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
