@@ -148,3 +148,53 @@ input {
     border: none;
 }
 
+/* font */
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/avenir/AvenirLTProBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/avenir/AvenirLTProHeavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/avenir/AvenirLTProMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/avenir/AvenirLTProRoman.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/avenir/AvenirLTProLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-family: avenir, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
