@@ -380,6 +380,10 @@ body {
     .container {
         max-width: 768px;
     }
+
+    .media__wrapper {
+        grid: auto auto / repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -419,4 +423,29 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
+    .media__tab {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .media {
+        margin-top: 2rem;
+    }
+
+    .media__tab {
+        font-size: 1.6rem;
+    }
+
+    .media__wrapper {
+        grid: auto auto / 1fr;
+        gap: .5rem;
+    }
+
+    .media__tabs {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
 }
