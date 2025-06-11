@@ -367,6 +367,22 @@ body {
     height: 100%;
     object-fit: cover;
 }
+/* plan */
+.plan {
+
+}
+.plan__title {
+    font-weight: 900;
+    font-size: 4.3rem;
+    text-align: center;
+}
+.plan__caption {
+    text-align: center;
+    color: var(--text-secondary);
+    margin: .8rem 0 2.6rem;
+    font-size: 2rem;
+}
+
 
 
 /* responsive */
