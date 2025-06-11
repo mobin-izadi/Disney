@@ -406,10 +406,115 @@ body {
     color: var(--text-primary);
     padding: .4rem 1.6rem;
 }
-.plan__btn--active{
-background: var(--btn-color);
-border-radius: 2rem;
+
+.plan__btn--active {
+    background: var(--btn-color);
+    border-radius: 2rem;
 }
+
+.plan__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.plan-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 52.3rem;
+    flex-basis: 33%;
+    border: 1px solid var(--text-secondary);
+    padding: 4.1rem 4.5rem;
+
+}
+
+.plan-box__logo {
+    width: 17.3rem;
+    height: 4rem;
+}
+
+.plan-box__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.plan-box__title {
+    margin-top: 2.7rem;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.plan-box__caption {
+    color: var(--text-secondary);
+    margin-bottom: 1.6rem;
+    margin-top: 1rem;
+}
+
+.plan-box__items {
+    max-height: 27rem;
+    overflow-y: auto;
+}
+
+.plan-box__item {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.plan-box__item:not(:first-child) {
+   margin-top: 1rem;
+    
+}
+
+.plan-box__item svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--text-primary);
+    transform: translateY(-1px);
+
+}
+
+.plan-box__item p {
+    color: var(--text-secondary);
+    max-width: 24rem;
+    line-height: 1.6;
+}
+
+.plan-box__price {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.plan-box__priod {
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.plan-box__btn {
+    width: 29rem;
+    height: 6rem;
+    background: var(--btn-color);
+    color: var(--text-primary);
+    display: block;
+    margin: 1.6rem auto 0;
+    border-radius: .4rem;
+    font-size: 1.8rem;
+}
+.plan__text{
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+.plan__text span{
+    color:var(--text-primary);
+    margin-top: 1rem;
+    display: inline-block;
+}
+
 
 
 
