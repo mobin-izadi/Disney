@@ -619,6 +619,7 @@ body {
     .media__wrapper {
         grid: auto auto / 1fr;
         gap: .5rem;
+        margin-bottom: 7rem;
     }
 
     .media__tabs {
