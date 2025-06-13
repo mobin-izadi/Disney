@@ -228,6 +228,7 @@ body {
     font-size: 1.6rem;
     color: var(--text-primary);
     background: var(--bg-color);
+    overflow-x: hidden;
 }
 
 .icons {
@@ -461,12 +462,12 @@ body {
 .plan-box__item {
     display: flex;
     gap: 1rem;
-    
+
 }
 
 .plan-box__item:not(:first-child) {
-   margin-top: 1rem;
-    
+    margin-top: 1rem;
+
 }
 
 .plan-box__item svg {
@@ -494,7 +495,7 @@ body {
 }
 
 .plan-box__btn {
-    width: 29rem;
+    width: 100%;
     height: 6rem;
     background: var(--btn-color);
     color: var(--text-primary);
@@ -503,14 +504,16 @@ body {
     border-radius: .4rem;
     font-size: 1.8rem;
 }
-.plan__text{
+
+.plan__text {
     text-align: center;
     color: var(--text-secondary);
     font-size: 1.2rem;
     margin: 1.5rem 0;
 }
-.plan__text span{
-    color:var(--text-primary);
+
+.plan__text span {
+    color: var(--text-primary);
     margin-top: 1rem;
     display: inline-block;
 }
@@ -533,6 +536,14 @@ body {
 
     .media__wrapper {
         grid: auto auto / repeat(2, 1fr);
+    }
+
+    .plan-box__title {
+        font-size: 2.7rem;
+    }
+
+    .plan-box {
+        padding: 2rem;
     }
 }
 
@@ -577,6 +588,23 @@ body {
     .media__tab {
         font-size: 1.8rem;
     }
+
+    .plan__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .plan-box__logo {
+        display: none;
+    }
+
+    .plan-box {
+        height: 40.3rem;
+        flex-basis: calc(50% - 54px);
+    }
+
+    .plan-box:last-child {
+        flex-basis: 100% !important;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -596,6 +624,15 @@ body {
     .media__tabs {
         flex-wrap: wrap;
         gap: 2rem;
+    }
+
+    .plan-box {
+
+        flex-basis: 100%;
+    }
+
+    .plan-box__items {
+        max-height: 20rem;
     }
 
 }
