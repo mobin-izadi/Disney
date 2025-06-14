@@ -518,6 +518,51 @@ body {
     display: inline-block;
 }
 
+/* about */
+.about {
+    margin-top: 19rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem
+}
+
+
+.about__img-wrapper {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    max-height: 51.1rem;
+}
+
+.about__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__content {
+    padding-top: 5rem;
+}
+
+.about__title {
+    font-weight: 900;
+    font-size: 3.8rem;
+}
+
+.about__list {
+    margin-top: 2.4rem;
+}
+
+.about__list-item {
+    color: var(--text-secondary);
+    font-size: 2rem;
+    list-style: disc;
+
+}
+
+.about__list-item:not(:first-child) {
+    margin-top: 2rem;
+}
+
 
 
 
