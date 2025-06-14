@@ -356,7 +356,7 @@ body {
 
 .media__wrapper {
     margin-top: 2.4rem;
-    margin-bottom: 19.4rem;
+    margin-bottom: 19rem;
     display: grid;
     grid: auto auto / repeat(3, 1fr);
     gap: 2.4rem;
